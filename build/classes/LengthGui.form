@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="33" green="33" red="33" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="178" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="JTextFieldfeet" max="32767" attributes="0"/>
+                              <Component id="JTextFieldmile" max="32767" attributes="0"/>
+                              <Component id="JTextFieldinch" pref="133" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="backLength" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="mileJLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="convertmile" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="feetJLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="convertfeet" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="inchJLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="resetLength" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="60" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="convertinch" min="-2" max="-2" attributes="0"/>
+                                  <Component id="exitLength" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="JTextFieldmm" max="32767" attributes="0"/>
+                          <Component id="JTextFieldlcm" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JTextFieldm" alignment="0" max="32767" attributes="0"/>
+                          <Component id="JTextFieldkm" alignment="0" pref="133" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="mmJLabel" min="-2" pref="26" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="Convertmm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="kmJLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="convertkm" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="mJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cmJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="110" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="convertcm" max="32767" attributes="0"/>
+                                  <Component id="convertm" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mmJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="JTextFieldmm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Convertmm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldlcm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cmJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertcm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldkm" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="kmJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertkm" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldmile" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mileJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertmile" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldfeet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="feetJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertfeet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="JTextFieldinch" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="inchJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="convertinch" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="28" pref="102" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="backLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="resetLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="exitLength" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Length Convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldmm">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldmmKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldlcm">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldlcmKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldm">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldmKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldkm">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldkmKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldmile">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldmileKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldfeet">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldfeetKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="JTextFieldinch">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="JTextFieldinchKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="backLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BACK"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="resetLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="RESET"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="exitLength">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EXIT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mmJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mm"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cmJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="cm"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="m"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="kmJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="km"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mileJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mile"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="feetJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="feet"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="inchJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="inch"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Convertmm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertcm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertkm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertmile">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertfeet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="convertinch">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="convert"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
